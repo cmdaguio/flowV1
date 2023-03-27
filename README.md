@@ -1,7 +1,7 @@
 # Git workflow V1
 
 1. `mkdir <local_repo>`
-2. cd <local_repo>`
+2. `cd <local_repo>`
 3. `git init`
 4. create new repo in github with same name as local repo, add .gitignore and license
 5. `git remote add origin <remote_repo>`
@@ -10,8 +10,8 @@
 
 **ALTERNATIVE STEPS (If you made changes in the local repo)**
 
-6. `git pull --rebase origin` (Pull changes from remote repo, plus rebase local repo on top of the remote repo)
-7. `git branch -u origin main` (This tells your local repo to track the remote repo. See `git status`)
+6. `git pull --rebase origin main` (Pull changes from remote repo, plus rebase local repo on top of the remote repo)
+7. `git branch -u origin/main` (This tells your local repo to track the remote repo. See `git status`)
 8. `git push` (Nice--you can now send changes to your github. Happy coding!!!)
 
 PS Make sure to add and commit your changes before pushing!
